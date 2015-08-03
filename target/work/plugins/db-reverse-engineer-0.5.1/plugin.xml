@@ -1,0 +1,29 @@
+<plugin name='db-reverse-engineer' version='0.5.1' grailsVersion='2.0 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>burt@burtbeckwith.com</authorEmail>
+  <title>Grails Database Reverse Engineering Plugin</title>
+  <description>Reverse-engineers a database to Grails domain classes.</description>
+  <documentation>http://grails-plugins.github.io/grails-db-reverse-engineer/</documentation>
+  <type>DbReverseEngineerGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.hibernate' name='hibernate-commons-annotations' version='3.2.0.Final' />
+      <dependency group='org.hibernate' name='hibernate-core' version='3.6.10.Final' />
+      <dependency group='org.hibernate' name='hibernate-tools' version='3.6.0.CR1' />
+      <dependency group='org.hibernate' name='jtidy' version='r8-20060801' />
+      <dependency group='dom4j' name='dom4j' version='1.6.1' />
+      <dependency group='freemarker' name='freemarker' version='2.3.8' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
