@@ -3,7 +3,7 @@ import grails.rest.render.xml.XmlRenderer
 import grails.rest.render.json.JsonRenderer
 import restservice.City
 import restservice.Customer
-
+crement date
 beans = {
     cityXmlRenderer(XmlRenderer, City) {
         excludes = ['class', 'dateCreated']
