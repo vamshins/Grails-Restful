@@ -75,9 +75,9 @@ class CustomerController<T> extends RestfulController {
             print "instance has no errors"
         }
 
-        def map = instance.getProperties()
+        /*def map = instance.getProperties()
 
-        map.each{ k, v -> println "${k}:${v}" }
+        map.each{ k, v -> println "${k}:${v}" }*/
         instance.putAt('dob', customerService.incrementYearByOne(instance))
 
         instance.save flush: true
