@@ -44,6 +44,9 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+
+//        mavenRepo 'http://repo.spring.io/milestone' // TODO remove
+//        mavenRepo 'https://oss.sonatype.org/content/repositories/snapshots'
     }
 
     dependencies {
@@ -75,6 +78,17 @@ grails.project.dependency.resolution = {
         //compile ":coffee-asset-pipeline:1.8.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
 
-//        runtime ":db-reverse-engineer:0.5.1"
+        runtime ":db-reverse-engineer:0.5.1"
+
+        /*compile ':spring-security-core:2.0-RC2'
+        compile ":spring-security-rest:latest.release", {
+            excludes 'spring-security-core'
+        }*/
+
+        /*compile ":spring-security-core:2.0-RC4"
+
+        compile ":spring-security-rest:1.4.0", {
+            excludes 'spring-security-core', 'cors'
+        }*/
     }
 }

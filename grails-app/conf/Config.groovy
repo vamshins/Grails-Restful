@@ -117,6 +117,6 @@ log4j.main = {
 }
 
 
-grails.plugin.reveng.packageName = 'edu.unm.vamshi'
+grails.plugin.reveng.packageName = 'restservice'
 grails.plugin.reveng.defaultSchema = 'vamshi'
-grails.plugin.reveng.includeTables = ['CUSTOMER']
+grails.plugin.reveng.includeTables = ['customer']

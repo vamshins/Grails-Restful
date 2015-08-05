@@ -2,6 +2,7 @@ package restservice
 
 import grails.converters.JSON
 import grails.converters.XML
+//import grails.plugin.springsecurity.annotation.Secured
 import grails.rest.RestfulController
 import grails.transaction.Transactional
 
@@ -14,19 +15,9 @@ class CityController extends RestfulController {
         super(City)
     }
 
-    /*def update = {
-        def result
-        def domain = invoke("save", params.id)
-        if(domain) {
-            domain.properties = params
-            if(!domain.hasErrors() && domain.save()) {
-                result = domain
-            } else {
-                result = new Error(message: "${domainClassName} could not be saved")
-            }
-        } else {
-            result = new Error(message: "${domainClassName} not found with id ${params.id}")
-        }
-        format(result)
+    /*@Secured(['ROLE_USER'])
+    def index() {
+//        respond params.id ? City.get(params.id).categories : Category.list()
+        respond params.id
     }*/
 }

@@ -34,6 +34,10 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/controllers" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/target/work/plugins/db-reverse-engineer-0.5.1">
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/db-reverse-engineer-0.5.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/db-reverse-engineer-0.5.1/src/groovy" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/hibernate-3.6.10.18">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/hibernate-3.6.10.18/src/java" isTestSource="false" />
     </content>
